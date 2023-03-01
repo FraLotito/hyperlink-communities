@@ -1,0 +1,49 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: hyperlink-communities
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Quintino Francesco
+    family-names: Lotito
+    affiliation: 'University of Trento, Italy'
+  - given-names: Federico
+    family-names: Musciotto
+    affiliation: 'University of Palermo, Italy'
+  - given-names: Alberto
+    family-names: Montresor
+    affiliation: 'University of Trento, Italy'
+  - given-names: Federico
+    family-names: Battiston
+    affiliation: 'Central European University, Austria'
+repository-code: 'https://github.com/FraLotito/hyperlink-communities'
+abstract: >-
+  Many networks are characterised by communities, which are
+  groups of units that are tightly linked and often relevant
+  to understand system function. Recently, hypergraphs have
+  emerged as a fundamental tool for modelling systems whose
+  interactions are not limited to pairs but may involve an
+  arbitrary number of nodes. Using a dual approach to
+  community detection, here we extend the notion of link
+  communities to hypergraphs, extracting informative
+  clusters of highly related hyperedges. We study the
+  dendrograms obtained by applying hierarchical clustering
+  to distance matrices among hyperedges on a variety of
+  real-world data, showing that hyperlink communities
+  naturally highlight the hierarchical and multiscale
+  structure of higher-order networks. We use hyperlink
+  communities to extract overlapping memberships from nodes,
+  overcoming limitations of traditional hard clustering
+  methods. Finally, we introduce higher-order network
+  cartography as a practical tool for categorizing nodes
+  into different structural roles based on their interaction
+  patterns and community participation, which helps identify
+  different types of individuals in a variety of real-world
+  social systems. Our work contributes to a better
+  understanding of the structural organization of real-world
+  higher-order systems.
+license: MIT
