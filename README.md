@@ -1,6 +1,6 @@
 # Hyperlink communities in higher-order networks
 
-This code implements the algorithms and analyses presented in [https://www.nature.com/articles/s42005-022-00858-7](https://www.nature.com/articles/s42005-022-00858-7)
+This code implements the algorithms and analyses presented in [arxiv link](arxiv link)
 
 ## Abstract
 
@@ -19,12 +19,9 @@ Many networks can be characterised by the presence of communities, which are gro
 Please download the datasets [here](https://drive.google.com/file/d/1uFaftX_hqjTiBt2SZ_6fbggYG9ySK3Ss/view?usp=sharing) and extract the archive inside the main directory.
 
 ## How to use custom datasets
-If you wish to perform higher-order motif analysis on your own datasets, you should implement a custom ```loader``` function. This function should return a set of tuples. Each tuple represents an hyperedge, and will contain the ids of the nodes involved in a group interactions.  
+If you wish to perform hyperlink community analysis on your own datasets, you should implement a custom ```loader``` function. This function should return a set of tuples. Each tuple represents an hyperedge, and will contain the ids of the nodes involved in a group interactions.  
 
 ## How to perform higher-order motif analysis
 If you wish to experiment with the code, you can run analysis setting up the parameter ```N``` in the code, which specifies the order of the motifs to use for the analysis. At the moment, the only feasible orders are ```N=3``` and ```N=4```. The parameter ```ROUNDS``` specifies the number of samples from the configuration model. Keep in mind that ```ROUNDS``` can heavily affect the performance. A value between 10 and 20 already gives reliable results.
-
-## Acknowledgments
-We thank [Phil Chodrow](https://github.com/PhilChodrow) for the code in the file ```hypergraph.py```
 
 
