@@ -16,7 +16,7 @@ Many networks can be characterised by the presence of communities, which are gro
 * ```hypergraph.py``` contains the implementation of a data structure for hypergraphs in Python and the configuration model for hypergraphs proposed by [Phil Chodrow](https://github.com/PhilChodrow)
 
 ## Datasets
-Please download the datasets [here](https://drive.google.com/file/d/1uFaftX_hqjTiBt2SZ_6fbggYG9ySK3Ss/view?usp=sharing) and extract the archive inside the main directory.
+Please download the datasets [here](https://drive.google.com/drive/folders/1vwdkiEcRoAjazXBI4iaoDlFo5HYUleQ5?usp=sharing) and extract the archive inside the main directory.
 
 ## How to use custom datasets
 If you wish to perform hyperlink community analysis on your own datasets, you should implement a custom ```loader``` function. This function should return a set of tuples. Each tuple represents an hyperedge, and will contain the ids of the nodes involved in a group interactions.  
