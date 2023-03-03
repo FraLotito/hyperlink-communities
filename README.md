@@ -1,6 +1,6 @@
 # Hyperlink communities in higher-order networks
 
-This code implements the algorithms and analyses presented in [arxiv link](arxiv link)
+This code implements the algorithms and analyses presented in [https://arxiv.org/pdf/2303.01385.pdf](https://arxiv.org/pdf/2303.01385.pdf)
 
 ## Abstract
 
